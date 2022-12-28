@@ -1,6 +1,7 @@
 import { useState } from "react";
 import axios from "axios";
 
+// Ajax周辺のツールを使ってみる用
 const AjaxSample = () => {
   const [xhrResponse, setXhrResponse] = useState();
   const [fetchResponse, setFetchResponse] = useState();
